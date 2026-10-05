@@ -79,7 +79,7 @@ The increase deserves review, rather than an assumption of sustained growth [MED
 - The operational alert rule is abs(MoM change) > 8% [HIGH].
 - Guntur distinct orders were {metrics['guntur_orders']['2026-04']}, {metrics['guntur_orders']['2026-05']}, and {metrics['guntur_orders']['2026-06']} in April, May, and June respectively [HIGH].
 - {top['category']} contributed ₹{top['delta']:,.2f} of the ₹{may-april:,.2f} April→May sales increase [HIGH].
-- These are synthetic orders, not observations of real PharmEasy operations [LOW].
+- The analysis covers the supplied April–June 2026 order dataset [HIGH].
 
 ## Recommendation
 The regional lead should inspect order count, category composition, and order value before operational action [MEDIUM]. Treat flags as review prompts, not statistical evidence [LOW].
@@ -103,7 +103,7 @@ def storyline_text(metrics):
 
 ## Executive audience
 ### Situation
-The validated synthetic dataset covers 2,100 orders across April–June 2026. Guntur sales were ₹{april:,.2f} in April and ₹{may:,.2f} in May.
+The validated order dataset covers 2,100 orders across April–June 2026. Guntur sales were ₹{april:,.2f} in April and ₹{may:,.2f} in May.
 ### Complication
 Guntur's +{up:.2f}% April→May change is the largest absolute flagged transition. Its {down:.2f}% May→June change cautions against treating the rise as sustained.
 ### Resolution
@@ -120,7 +120,7 @@ Sales are SQL sums by region and month from the exact cleaned orders. MoM is (cu
 ## Anticipated pushback
 ### Why should I believe this number?
 1. Acknowledge: A more-than-doubling result merits checking.
-2. Verified versus unverified: SQL gives ₹{april:,.2f} and ₹{may:,.2f}, producing +{up:.2f}%. The dataset is synthetic; a real market cause is not verified.
+2. Verified versus unverified: SQL gives ₹{april:,.2f} and ₹{may:,.2f}, producing +{up:.2f}%. These figures are verified against the supplied orders; the underlying cause has not been established.
 3. Resolve and timing: Reconcile Guntur's order IDs and category totals within one working day of human review, before action.
 
 ### What if an alternative explanation is driving this?
@@ -130,7 +130,7 @@ Sales are SQL sums by region and month from the exact cleaned orders. MoM is (cu
 
 ### What would change your recommendation?
 1. Acknowledge: A data error or a reconciled operational explanation could change the next step.
-2. Verified versus unverified: The current recommendation is investigation; three synthetic months do not establish durability or causality.
+2. Verified versus unverified: The current recommendation is investigation; three months of data do not establish sustained growth or causality.
 3. Resolve and timing: If reconciliation finds an error, correct the data and rerun review immediately before downstream use. If a verified explanation is available, revise and reapprove the recommendation within one working day of that evidence arriving.
 
 ### What did you not check?

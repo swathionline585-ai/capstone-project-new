@@ -31,3 +31,8 @@ Sales are SQL sums by region and month from the exact cleaned orders. MoM is (cu
 1. Acknowledge: A data error or a reconciled operational explanation could change the next step.
 2. Verified versus unverified: The current recommendation is investigation; three months of data do not establish sustained growth or causality.
 3. Resolve and timing: If reconciliation finds an error, correct the data and rerun review immediately before downstream use. If a verified explanation is available, revise and reapprove the recommendation within one working day of that evidence arriving.
+
+### What did you not check?
+1. Acknowledge: Regional aggregation alone cannot answer every business question.
+2. Verified versus unverified: Counts, sales, category contributions, and imputed-profit methods are checked. External market conditions and true values of missing profits are not known.
+3. Resolve and timing: Complete available order-level checks within one working day of human review. Assign external evidence gathering only if needed, and keep the recommendation provisional until it is reviewed.

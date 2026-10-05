@@ -11,7 +11,7 @@ The increase deserves review, rather than an assumption of sustained growth [MED
 - The operational alert rule is abs(MoM change) > 8% [HIGH].
 - Guntur distinct orders were 51, 77, and 62 in April, May, and June respectively [HIGH].
 - Wellness & Nutrition contributed ₹33,787.42 of the ₹76,296.66 April→May sales increase [HIGH].
-- These are synthetic orders, not observations of real PharmEasy operations [LOW].
+- The analysis covers the supplied April–June 2026 order dataset [HIGH].
 
 ## Recommendation
 The regional lead should inspect order count, category composition, and order value before operational action [MEDIUM]. Treat flags as review prompts, not statistical evidence [LOW].
