@@ -7,7 +7,7 @@ Requires Python 3.11 or newer. From the repository root, run:
 ```bash
 python -m pip install -r requirements.txt
 python pipeline.py
-python -m streamlit run .\app.py
+python -m streamlit run app.py
 ```
 
 The pipeline generates the dataset, cleans and validates it, builds SQLite metrics, and prepares the reports. Review the printed package and enter `approve`, `edit`, or `reject`, followed by your name and what you checked. Approval allows the dashboard to display the report. No paid services or API keys are required.
