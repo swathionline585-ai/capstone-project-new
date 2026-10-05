@@ -1,0 +1,218 @@
+{
+  "region": "Regional desk",
+  "data_fingerprint": "12001c1f8537e439dd477c8eec7fcbbd6c06d4b769ce39e4f9d8881843fe95a5",
+  "metrics": {
+    "months": [
+      {
+        "month": "2026-04",
+        "sales": {
+          "Bengaluru": 203505.48,
+          "Guntur": 62442.27,
+          "Hyderabad": 209670.15,
+          "Karimnagar": 49815.71,
+          "Kurnool": 0.0,
+          "Nellore": 85623.19,
+          "Tirupati": 54582.74,
+          "Vijayawada": 171334.19,
+          "Visakhapatnam": 134765.29,
+          "Warangal": 100468.14
+        }
+      },
+      {
+        "month": "2026-05",
+        "sales": {
+          "Bengaluru": 172929.68,
+          "Guntur": 138738.93,
+          "Hyderabad": 243825.28,
+          "Karimnagar": 61585.9,
+          "Kurnool": 0.0,
+          "Nellore": 91184.86,
+          "Tirupati": 91083.2,
+          "Vijayawada": 174863.57,
+          "Visakhapatnam": 50590.08,
+          "Warangal": 78339.23
+        }
+      },
+      {
+        "month": "2026-06",
+        "sales": {
+          "Bengaluru": 170294.11,
+          "Guntur": 99745.18,
+          "Hyderabad": 294088.56,
+          "Karimnagar": 34490.58,
+          "Kurnool": 0.0,
+          "Nellore": 94393.62,
+          "Tirupati": 75530.99,
+          "Vijayawada": 153849.68,
+          "Visakhapatnam": 100735.57,
+          "Warangal": 66715.24
+        }
+      }
+    ],
+    "transitions": [
+      {
+        "previous_month": "2026-04",
+        "month": "2026-05",
+        "changes": {
+          "Bengaluru": -15.024558552428177,
+          "Guntur": 122.18751816678031,
+          "Hyderabad": 16.28993445180442,
+          "Karimnagar": 23.627466114605216,
+          "Kurnool": 0,
+          "Nellore": 6.495518328621018,
+          "Tirupati": 66.87179866749085,
+          "Vijayawada": 2.059939116646832,
+          "Visakhapatnam": -62.4606009455402,
+          "Warangal": -22.02579842724271
+        },
+        "flags": {
+          "Bengaluru": true,
+          "Guntur": true,
+          "Hyderabad": true,
+          "Karimnagar": true,
+          "Kurnool": false,
+          "Nellore": false,
+          "Tirupati": true,
+          "Vijayawada": false,
+          "Visakhapatnam": true,
+          "Warangal": true
+        }
+      },
+      {
+        "previous_month": "2026-05",
+        "month": "2026-06",
+        "changes": {
+          "Bengaluru": -1.5240703620107359,
+          "Guntur": -28.105845994343476,
+          "Hyderabad": 20.61446622762004,
+          "Karimnagar": -43.995979599226445,
+          "Kurnool": 0,
+          "Nellore": 3.5189613714381918,
+          "Tirupati": -17.074729478103528,
+          "Vijayawada": -12.017305834485716,
+          "Visakhapatnam": 99.12119134818526,
+          "Warangal": -14.838019214638681
+        },
+        "flags": {
+          "Bengaluru": false,
+          "Guntur": true,
+          "Hyderabad": true,
+          "Karimnagar": true,
+          "Kurnool": false,
+          "Nellore": false,
+          "Tirupati": true,
+          "Vijayawada": true,
+          "Visakhapatnam": true,
+          "Warangal": true
+        }
+      }
+    ],
+    "kpis": {
+      "sales": 3265191.42,
+      "profit": 492279.59,
+      "orders": 2100
+    },
+    "guntur_categories": [
+      {
+        "category": "Wellness & Nutrition",
+        "april": 19297.59,
+        "may": 53085.01,
+        "delta": 33787.42
+      },
+      {
+        "category": "Medical Devices",
+        "april": 9490.63,
+        "may": 32766.69,
+        "delta": 23276.06
+      },
+      {
+        "category": "Lab Tests",
+        "april": 12578.92,
+        "may": 23590.94,
+        "delta": 11012.02
+      },
+      {
+        "category": "Personal Care",
+        "april": 5383.35,
+        "may": 9320.26,
+        "delta": 3936.91
+      },
+      {
+        "category": "Prescription Medicines",
+        "april": 9521.76,
+        "may": 11749.59,
+        "delta": 2227.83
+      },
+      {
+        "category": "OTC Medicines",
+        "april": 6170.02,
+        "may": 8226.44,
+        "delta": 2056.42
+      }
+    ],
+    "guntur_orders": {
+      "2026-04": 51,
+      "2026-05": 77,
+      "2026-06": 62
+    }
+  },
+  "reports": [
+    {
+      "region": "Bengaluru",
+      "context": "Bengaluru sales were ₹203,505.48 in 2026-04 and ₹172,929.68 in 2026-05.",
+      "insight": "Sales decreased 15.02% from 2026-04 to 2026-05.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Guntur",
+      "context": "Guntur sales were ₹62,442.27 in 2026-04 and ₹138,738.93 in 2026-05. Guntur sales were ₹138,738.93 in 2026-05 and ₹99,745.18 in 2026-06.",
+      "insight": "Sales increased 122.19% from 2026-04 to 2026-05. Sales decreased 28.11% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Hyderabad",
+      "context": "Hyderabad sales were ₹209,670.15 in 2026-04 and ₹243,825.28 in 2026-05. Hyderabad sales were ₹243,825.28 in 2026-05 and ₹294,088.56 in 2026-06.",
+      "insight": "Sales increased 16.29% from 2026-04 to 2026-05. Sales increased 20.61% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Karimnagar",
+      "context": "Karimnagar sales were ₹49,815.71 in 2026-04 and ₹61,585.90 in 2026-05. Karimnagar sales were ₹61,585.90 in 2026-05 and ₹34,490.58 in 2026-06.",
+      "insight": "Sales increased 23.63% from 2026-04 to 2026-05. Sales decreased 44.00% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Tirupati",
+      "context": "Tirupati sales were ₹54,582.74 in 2026-04 and ₹91,083.20 in 2026-05. Tirupati sales were ₹91,083.20 in 2026-05 and ₹75,530.99 in 2026-06.",
+      "insight": "Sales increased 66.87% from 2026-04 to 2026-05. Sales decreased 17.07% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Vijayawada",
+      "context": "Vijayawada sales were ₹174,863.57 in 2026-05 and ₹153,849.68 in 2026-06.",
+      "insight": "Sales decreased 12.02% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Visakhapatnam",
+      "context": "Visakhapatnam sales were ₹134,765.29 in 2026-04 and ₹50,590.08 in 2026-05. Visakhapatnam sales were ₹50,590.08 in 2026-05 and ₹100,735.57 in 2026-06.",
+      "insight": "Sales decreased 62.46% from 2026-04 to 2026-05. Sales increased 99.12% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    },
+    {
+      "region": "Warangal",
+      "context": "Warangal sales were ₹100,468.14 in 2026-04 and ₹78,339.23 in 2026-05. Warangal sales were ₹78,339.23 in 2026-05 and ₹66,715.24 in 2026-06.",
+      "insight": "Sales decreased 22.03% from 2026-04 to 2026-05. Sales decreased 14.84% from 2026-05 to 2026-06.",
+      "implication": "Review the underlying orders and category mix before operational action. The 8% alert is not a statistical significance test or proof of a causal shift."
+    }
+  ],
+  "executive_summary": "Across April–June 2026, sales total **₹3,265,191.42**, profit including estimates totals **₹492,279.59**, and orders total **2,100 distinct IDs**. Guntur rose **122.19%** from April to May, then fell **28.11%** in June. **Wellness & Nutrition** contributed **₹33,787.42** of its April→May increase. The recommendation is to reconcile order composition before operational action, because the 8% threshold is a review alert rather than statistical proof. Use the region filter, category-by-month comparison, detail table, and approved CII blocks below to examine the evidence.",
+  "memo": "# Title\nGuntur sales swing recommendation [LOW]\n\n## Context\nGuntur sales rose from ₹62,442.27 in April 2026 to ₹138,738.93 in May 2026 [HIGH]. This is a +122.19% change and the largest absolute flagged transition in this dataset [HIGH].\n\n## Key Insight\nThe increase deserves review, rather than an assumption of sustained growth [MEDIUM]. June sales were ₹99,745.18, a -28.11% May→June change [HIGH].\n\n## Evidence\n- The operational alert rule is abs(MoM change) > 8% [HIGH].\n- Guntur distinct orders were 51, 77, and 62 in April, May, and June respectively [HIGH].\n- Wellness & Nutrition contributed ₹33,787.42 of the ₹76,296.66 April→May sales increase [HIGH].\n- These are synthetic orders, not observations of real PharmEasy operations [LOW].\n\n## Recommendation\nThe regional lead should inspect order count, category composition, and order value before operational action [MEDIUM]. Treat flags as review prompts, not statistical evidence [LOW].\n\n## Next Check\nWithin one working day of human review, compare Guntur's category-by-month sales and underlying order records, then record the conclusion before any operational action [MEDIUM]. Profit includes estimated values and needs separate scrutiny if used in a decision [MEDIUM].\n\n## Assumptions\nChanges in order composition may explain the swing, but no causal explanation has been verified. [MEDIUM]\n",
+  "storyline": "# Presentation storyline\n\n## Executive audience\n### Situation\nThe validated synthetic dataset covers 2,100 orders across April–June 2026. Guntur sales were ₹62,442.27 in April and ₹138,738.93 in May.\n### Complication\nGuntur's +122.19% April→May change is the largest absolute flagged transition. Its -28.11% May→June change cautions against treating the rise as sustained.\n### Resolution\nThe regional lead should review order composition within one working day of reviewing this report, before operational action. The narrative and recommendation require explicit human approval for downstream use.\n\n## Regional manager audience\n### Overview\nGuntur's April→May sales increased ₹76,296.66, or 122.19%. Its order count rose from 51 to 77.\n### Category\nWellness & Nutrition contributes the most to the increase: ₹33,787.42 (44.28% of the total increase). Medical Devices contributes ₹23,276.06. These are measured contributions, not external causal explanations.\n### Detail\nSales are SQL sums by region and month from the exact cleaned orders. MoM is (current − previous) / previous × 100. Deduplication removes 59 exact copies; category lookup restores 48 categories; category mean margins estimate 94 profits. Sales growth is unaffected by profit imputation. Compare the dashboard's category-by-month table, monthly distinct orders, and order values. June sales are ₹99,745.18 across 62 orders.\n\n## Anticipated pushback\n### Why should I believe this number?\n1. Acknowledge: A more-than-doubling result merits checking.\n2. Verified versus unverified: SQL gives ₹62,442.27 and ₹138,738.93, producing +122.19%. The dataset is synthetic; a real market cause is not verified.\n3. Resolve and timing: Reconcile Guntur's order IDs and category totals within one working day of human review, before action.\n\n### What if an alternative explanation is driving this?\n1. Acknowledge: More orders and different order values or mix can produce the same regional increase.\n2. Verified versus unverified: Orders increased 51→77; category contributions are measurable. Promotions, competitor actions, and customer motivations are not verified.\n3. Resolve and timing: Compare category-month orders and average order value within one working day of human review. Keep external explanations as hypotheses unless separate evidence is obtained.\n\n### What would change your recommendation?\n1. Acknowledge: A data error or a reconciled operational explanation could change the next step.\n2. Verified versus unverified: The current recommendation is investigation; three synthetic months do not establish durability or causality.\n3. Resolve and timing: If reconciliation finds an error, correct the data and rerun review immediately before downstream use. If a verified explanation is available, revise and reapprove the recommendation within one working day of that evidence arriving.\n\n### What did you not check?\n1. Acknowledge: Regional aggregation alone cannot answer every business question.\n2. Verified versus unverified: Counts, sales, category contributions, and imputed-profit methods are checked. External market conditions and true values of missing profits are not known.\n3. Resolve and timing: Complete available order-level checks within one working day of human review. Assign external evidence gathering only if needed, and keep the recommendation provisional until it is reviewed.\n",
+  "review_decision": "approve",
+  "external_use_allowed": true,
+  "content_fingerprint": "cf405fe28f9c071271b6097d4200211b1d7ddc9edc638de890a07b833980438d",
+  "reviewer_note": "swathi",
+  "run_id": "f65c7a13-ceda-4d8b-9711-4e9dc385cf21",
+  "reviewed_at": "2026-10-05T02:17:27.402525+00:00"
+}
