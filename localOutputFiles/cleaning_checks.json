@@ -1,0 +1,21 @@
+{
+  "raw_rows": 2159,
+  "raw_region_variants": 16,
+  "duplicates_removed": 59,
+  "categories_imputed": 48,
+  "profits_imputed": 94,
+  "clean_rows": 2100,
+  "canonical_regions": 9,
+  "schema": {
+    "status": "validated",
+    "row_count": 2100,
+    "missing_columns": []
+  },
+  "broken_schema": {
+    "status": "blocked_schema",
+    "row_count": 2100,
+    "missing_columns": [
+      "profit_inr"
+    ]
+  }
+}
