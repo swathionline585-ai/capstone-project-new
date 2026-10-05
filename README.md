@@ -27,4 +27,4 @@ Unverified assumption from the memo: **Changes in order composition may explain 
 
 ## Output folder
 
-Generated CSV data, the SQLite database, JSON state/report files, and the JSONL audit log are stored in `output/`. Python scripts and all Markdown files remain in the repository root.
+Generated CSV data, the SQLite database, JSON state/report files, and the JSONL audit log are stored in `output/`. Python scripts and all Markdown files remain in the repository root. The files that were generated during testing in local system were placed in localOutputFiles folder in the project.
